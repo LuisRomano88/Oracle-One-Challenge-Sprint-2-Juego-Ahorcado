@@ -1,0 +1,190 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844231_960_720.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+#img-fondo{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-content: center;
+    gap: 30%;
+}
+
+header h1{
+
+    color: white;
+    font-size: 52px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#logo{
+    height: 48px;
+    width: 31px;
+    padding: 20px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    
+    
+}
+
+.botones-agregar{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+#caja-textarea{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 100px;
+    
+}
+
+#txt-agregar{
+    width: 30%;
+    height: 50px;
+    font-size: 20px;
+    text-align: justify;
+    color: #0A3871;
+    font-weight: bold;
+    resize: none;
+}
+
+.botones-juego-nuevo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 60px;
+
+}
+
+#btn-iniciar, #btn-guardar, #btn-nuevo{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 18px;
+    box-shadow: 0 10px 10px 0 purple; 
+}
+
+
+#btn-iniciar:hover, #btn-guardar:hover, #btn-nuevo:hover{
+    background-color: #0A3871;
+    box-shadow: 0 10px 10px 0 #FFFFFF; 
+    color: white;
+}
+
+#btn-agregar, #btn-cancelar, #btn-desistir{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 18px;
+    box-shadow: 0px 10px 10px 0 purple; 
+}
+
+#btn-agregar:hover, #btn-cancelar:hover, #btn-desistir:hover {
+    background-color: #0A3871;
+    box-shadow: 0 10px 10px 0 #FFFFFF; 
+    color: white;
+}
+
+.div-canvas{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#letras-correctas h4{
+    color: green;
+    font-size: 3rem;
+    width: 30px;
+    text-align: center  ;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+#dibuja-guiones span{
+    color: white;
+    font-size: 2rem;
+    border-bottom: 2px solid white;
+    width: 30px;
+    text-align: center  ;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+
+#letras-erroneas {
+    color: red;
+    font-size: 2rem;
+    text-align: center  ;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 10px;
+    
+}
+
+.finJuego {
+    font-size: 2rem;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#ganador{
+    color: greenyellow;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #0d4c94;
+    width:100%;
+    color: white;
+    margin-top: 150px;
+  }
+
+  .footer p {
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
